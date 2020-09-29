@@ -30,6 +30,7 @@ class FecharPedido : AppCompatActivity() {
 
     }
 
+
     override fun onStop() {
         super.onStop()
         val databasePreferences = getSharedPreferences("database", Context.MODE_PRIVATE)
